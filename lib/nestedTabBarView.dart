@@ -77,13 +77,12 @@ class _NestedTabBarState extends State<NestedTabBar>
           ],
         ),
 
-                     Flexible(
-                       child: Container(
-                       decoration: BoxDecoration(
-                         border: Border(
-                           bottom: BorderSide(color: Colors.black54,width: 0.4, ),
-                         ),),
-                     ),),
+        Container(
+          decoration: BoxDecoration(
+            border: Border(
+              bottom: BorderSide(color: Colors.black54,width: 0.4, ),
+            ),),
+        ),
 
                     Flexible(
                       child: Container(
@@ -106,7 +105,7 @@ class _NestedTabBarState extends State<NestedTabBar>
                           Screens(),
                         ],
                       ),
-                    ),
+                      ),
                     ),
                 ],
                 );

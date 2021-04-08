@@ -15,42 +15,42 @@ class MyApp extends StatefulWidget {
 
 class _State extends State<MyApp> with TickerProviderStateMixin{
   TabController _tabController;
-  var names = [
-    "Adheela Farzana",
-    "Resmi A R",
-    "Sangeetha P",
-    "Shebon Shajan",
-    "Sneha Meto",
-    "Swathi Krishna"
-  ];
-  var titleList = [
-    "London Fashion Week Fashion Shows & Events",
-    "London Fashion Week Fashion Shows & Events",
-    "London Fashion Week Fashion Shows & Events",
-    "London Fashion Week Fashion Shows & Events",
-    "London Fashion Week Fashion Shows & Events",
-    "London Fashion Week Fashion Shows & Events"
-  ];
-
-  // Description List Here
-  var descList = [
-    "04 August 2020 • 02:40AM",
-    "04 August 2020 • 02:40AM",
-    "04 August 2020 • 02:40AM",
-    "04 August 2020 • 02:40AM",
-    "04 August 2020 • 02:40AM",
-    "04 August 2020 • 02:40AM"
-  ];
-
-  // Image Name List Here
-  var imgList = [
-    "assets/fashion-1.jpeg",
-    "assets/fashion-2.jpeg",
-    "assets/fashion-3.jpg",
-    "assets/fashion-4.jpeg",
-    "assets/fashion-5.jpeg",
-    "assets/fashion-6.jpeg"
-  ];
+  // var names = [
+  //   "Adheela Farzana",
+  //   "Resmi A R",
+  //   "Sangeetha P",
+  //   "Shebon Shajan",
+  //   "Sneha Meto",
+  //   "Swathi Krishna"
+  // ];
+  // var titleList = [
+  //   "London Fashion Week Fashion Shows & Events",
+  //   "London Fashion Week Fashion Shows & Events",
+  //   "London Fashion Week Fashion Shows & Events",
+  //   "London Fashion Week Fashion Shows & Events",
+  //   "London Fashion Week Fashion Shows & Events",
+  //   "London Fashion Week Fashion Shows & Events"
+  // ];
+  //
+  // // Description List Here
+  // var descList = [
+  //   "04 August 2020 • 02:40AM",
+  //   "04 August 2020 • 02:40AM",
+  //   "04 August 2020 • 02:40AM",
+  //   "04 August 2020 • 02:40AM",
+  //   "04 August 2020 • 02:40AM",
+  //   "04 August 2020 • 02:40AM"
+  // ];
+  //
+  // // Image Name List Here
+  // var imgList = [
+  //   "assets/fashion-1.jpeg",
+  //   "assets/fashion-2.jpeg",
+  //   "assets/fashion-3.jpg",
+  //   "assets/fashion-4.jpeg",
+  //   "assets/fashion-5.jpeg",
+  //   "assets/fashion-6.jpeg"
+  // ];
 
   @override
   void initState() {

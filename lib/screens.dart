@@ -56,8 +56,7 @@ class _ScreensState extends State<Screens> {
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             // Padding(padding: EdgeInsets.all(30.0),),
-            Flexible(
-              child: Container(
+            Container(
               margin: EdgeInsets.all(12.0),
               width: 100,
               height: 100,
@@ -68,7 +67,7 @@ class _ScreensState extends State<Screens> {
                 ),
                 borderRadius: BorderRadius.circular(10),
               ),
-            ),),
+            ),
             Flexible(
               // child: Padding(
               //   padding: const EdgeInsets.all(1.0),
